@@ -1,11 +1,14 @@
 import "./App.css";
-import Counter from "./Components/Counter";
+// import Counter from "./Components/Counter";
+import PostList from "./Components/Post/PostList";
+import { AddPostForm } from "./Components/Post/AddPostForm";
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello</h2>
-      <Counter />
+      {/* <Counter /> */}
+      <AddPostForm />
+      <PostList />
     </div>
   );
 }
